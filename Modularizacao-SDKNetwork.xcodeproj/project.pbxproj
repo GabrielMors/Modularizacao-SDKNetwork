@@ -19,6 +19,7 @@
 		C46BE9E22A9A86E30060BDF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46BE9E12A9A86E30060BDF7 /* Constants.swift */; };
 		C46BE9E62A9A8CB40060BDF7 /* CategoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46BE9E52A9A8CB40060BDF7 /* CategoryProvider.swift */; };
 		C46BE9E82A9A8DAB0060BDF7 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46BE9E72A9A8DAB0060BDF7 /* CategoryModel.swift */; };
+		C46BE9EB2A9A9FD60060BDF7 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46BE9EA2A9A9FD60060BDF7 /* CategoryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C46BE9E52A9A8CB40060BDF7 /* CategoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProvider.swift; sourceTree = "<group>"; };
 		C46BE9E72A9A8DAB0060BDF7 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		C46BE9E92A9A9DBB0060BDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C46BE9EA2A9A9FD60060BDF7 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		C46BE9EF2A9AA39B0060BDF7 /* Network.podspec.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Network.podspec.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 				C46BE9E92A9A9DBB0060BDF7 /* Info.plist */,
 				C46BE9B12A9A85630060BDF7 /* Modularizacao_SDKNetworkApp.swift */,
 				C46BE9B32A9A85630060BDF7 /* ContentView.swift */,
+				C46BE9EA2A9A9FD60060BDF7 /* CategoryViewModel.swift */,
 				C46BE9B52A9A85650060BDF7 /* Assets.xcassets */,
 				C46BE9BA2A9A85650060BDF7 /* Persistence.swift */,
 				C46BE9BC2A9A85650060BDF7 /* Modularizacao_SDKNetwork.xcdatamodeld */,
@@ -162,10 +166,19 @@
 		C46BE9E42A9A8C8D0060BDF7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C46BE9E32A9A8C7B0060BDF7 /* Provider */,
-				C46BE9E02A9A86CF0060BDF7 /* Helpers */,
+				C46BE9EC2A9AA3550060BDF7 /* Network */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		C46BE9EC2A9AA3550060BDF7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C46BE9E32A9A8C7B0060BDF7 /* Provider */,
+				C46BE9E02A9A86CF0060BDF7 /* Helpers */,
+				C46BE9EF2A9AA39B0060BDF7 /* Network.podspec.md */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +315,7 @@
 				C46BE9BB2A9A85650060BDF7 /* Persistence.swift in Sources */,
 				C46BE9B42A9A85630060BDF7 /* ContentView.swift in Sources */,
 				C46BE9E22A9A86E30060BDF7 /* Constants.swift in Sources */,
+				C46BE9EB2A9A9FD60060BDF7 /* CategoryViewModel.swift in Sources */,
 				C46BE9E82A9A8DAB0060BDF7 /* CategoryModel.swift in Sources */,
 				C46BE9B22A9A85630060BDF7 /* Modularizacao_SDKNetworkApp.swift in Sources */,
 				C46BE9BE2A9A85650060BDF7 /* Modularizacao_SDKNetwork.xcdatamodeld in Sources */,
