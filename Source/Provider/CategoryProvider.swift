@@ -33,7 +33,7 @@ class CategoryProvider {
                     let dataString = String(data: data, encoding: .utf8) ?? String(data: data, encoding: .isoLatin1)
                     debugPrint(dataString as Any)
                     
-                    if let jsonData = dataString?.data(using: .utf8) {
+                    if let jsonData = dataString?.data(using: .utf8) ?? String(data: data, encoding: .isoLatin1){
                         if jsonData.isEmpty {
                             completionHandler(.success([CategoryModel]()))
                         } else {

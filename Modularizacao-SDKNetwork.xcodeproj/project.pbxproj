@@ -54,6 +54,7 @@
 		C46BE9E12A9A86E30060BDF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C46BE9E52A9A8CB40060BDF7 /* CategoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProvider.swift; sourceTree = "<group>"; };
 		C46BE9E72A9A8DAB0060BDF7 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		C46BE9E92A9A9DBB0060BDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 		C46BE9B02A9A85630060BDF7 /* Modularizacao-SDKNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				C46BE9E92A9A9DBB0060BDF7 /* Info.plist */,
 				C46BE9B12A9A85630060BDF7 /* Modularizacao_SDKNetworkApp.swift */,
 				C46BE9B32A9A85630060BDF7 /* ContentView.swift */,
 				C46BE9B52A9A85650060BDF7 /* Assets.xcassets */,
@@ -463,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Modularizacao-SDKNetwork/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Modularizacao-SDKNetwork/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Modularizacao-SDKNetwork/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Modularizacao-SDKNetwork/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
